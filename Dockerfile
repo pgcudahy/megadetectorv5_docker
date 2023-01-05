@@ -2,8 +2,6 @@ FROM continuumio/miniconda3:22.11.1-alpine
 
 LABEL "maintainer"="pgcudahy@gmail.com"
 
-RUN conda --version
-
 ENV WORKSPACE /workspace
 
 RUN mkdir $WORKSPACE
